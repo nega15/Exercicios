@@ -1,0 +1,27 @@
+
+int numero1;
+int numero2;
+int numero3;
+
+Console.WriteLine("digite valor numero1");
+numero1 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("digite valor numero2");
+numero2 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("digite valor numero3");
+numero3 = Convert.ToInt32(Console.ReadLine());
+
+if (numero1 > numero2)
+{
+    Console.WriteLine("o numero maior é:"+ numero1);
+}
+else
+{
+    Console.WriteLine("o numero maior maior é:"+ numero2);
+}
+if(numero3>numero2)
+{
+    Console.WriteLine("o numero maior é;" + numero3);
+}
+Console.ReadLine());
